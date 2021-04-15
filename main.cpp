@@ -27,7 +27,7 @@ int main()
     
     Font font;
     if (!font.loadFromFile("arial.ttf"))
-        cout<<"Error"<<endl;
+        cout<<"Font doesn't found."<<endl;
        
     RectangleShape rectangle(Vector2f(400,400));
     rectangle.setPosition(50,50);
