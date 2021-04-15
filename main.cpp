@@ -18,7 +18,7 @@ string IntegerNotation(int number){
 int main()
 {
     random_device rd;
-    default_random_engine generator(rd()); // rd() provides a random seed
+    default_random_engine generator(rd());
     uniform_real_distribution<double> distribution(-1,1);
     
     ContextSettings settings;
