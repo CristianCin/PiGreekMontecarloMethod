@@ -1,3 +1,7 @@
+/***
+    @author CristianCin
+***/
+
 #include <SFML/Graphics.hpp>
 #include <random>
 #include <bits/stdc++.h>
